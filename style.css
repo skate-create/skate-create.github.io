@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #05070d;
+    color: white;
+    line-height: 1.6;
+}
+
+/* HERO */
+
+header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+
+    background:
+        radial-gradient(circle at center, #10284a 0%, #05070d 65%);
+}
+
+header h1 {
+    font-size: clamp(40px, 8vw, 90px);
+    letter-spacing: 4px;
+    text-shadow: 0 0 20px #168cff;
+    margin-bottom: 20px;
+}
+
+header p {
+    max-width: 700px;
+    font-size: 20px;
+    color: #b9c9dd;
+    margin-bottom: 35px;
+}
+
+/* BUTTON */
+
+header a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #168cff;
+    padding: 14px 28px;
+    border-radius: 6px;
+
+    box-shadow:
+        0 0 10px rgba(22, 140, 255, 0.4);
+
+    transition: 0.25s;
+}
+
+header a:hover {
+    background: #168cff;
+    box-shadow:
+        0 0 25px rgba(22, 140, 255, 0.8);
+    transform: translateY(-3px);
+}
+
+/* SECTIONS */
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 30px;
+}
+
+section h2 {
+    font-size: 38px;
+    margin-bottom: 25px;
+    color: #168cff;
+    text-shadow: 0 0 12px rgba(22, 140, 255, 0.5);
+}
+
+section p {
+    color: #c7d2df;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+/* LINKS */
+
+section a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #168cff;
+    text-decoration: none;
+    border-bottom: 1px solid #168cff;
+}
+
+section a:hover {
+    color: white;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid #182235;
+    color: #65758c;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        letter-spacing: 2px;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    section {
+        padding: 70px 20px;
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+}
