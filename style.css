@@ -162,6 +162,13 @@ footer {
     .gallery img {
         height: 220px;
     }
+    .world-card {
+    padding: 25px;
+}
+
+.world-card h3 {
+    font-size: 26px;
+}
 }
 
 /* GAMEPLAY GALLERY */
@@ -193,5 +200,51 @@ footer {
 
     box-shadow:
         0 0 30px rgba(22, 140, 255, 0.45);
+}
+
+/* WORLD */
+
+.world-card {
+    margin-top: 45px;
+    padding: 35px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0b1422,
+            #070a11
+        );
+
+    border: 1px solid #168cff;
+    border-radius: 8px;
+
+    box-shadow:
+        0 0 25px rgba(22, 140, 255, 0.12);
+}
+
+.world-card h3 {
+    font-size: 32px;
+    margin-bottom: 15px;
+
+    color: #ffffff;
+
+    text-shadow:
+        0 0 12px rgba(22, 140, 255, 0.6);
+}
+
+.world-card span {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    padding: 6px 12px;
+
+    border: 1px solid #168cff;
+    border-radius: 4px;
+
+    color: #168cff;
+
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 
