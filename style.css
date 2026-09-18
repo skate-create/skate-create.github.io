@@ -112,6 +112,37 @@ section p {
     margin-bottom: 18px;
 }
 
+/* GAMEPLAY GALLERY */
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 280px;
+
+    object-fit: cover;
+
+    border: 1px solid #168cff;
+    border-radius: 8px;
+
+    box-shadow:
+        0 0 15px rgba(22, 140, 255, 0.15);
+
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+
+    box-shadow:
+        0 0 30px rgba(22, 140, 255, 0.45);
+}
+
 /* LINKS */
 
 section a {
@@ -155,33 +186,12 @@ footer {
         font-size: 30px;
     }
 }
-/* GAMEPLAY GALLERY */
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    margin-top: 40px;
-}
+    .gallery {
+        grid-template-columns: 1fr;
+    }
 
-.gallery img {
-    width: 100%;
-    height: 280px;
+    .gallery img {
+        height: 220px;
+    }
 
-    object-fit: cover;
-
-    border: 1px solid #168cff;
-    border-radius: 8px;
-
-    box-shadow:
-        0 0 15px rgba(22, 140, 255, 0.15);
-
-    transition: 0.3s;
-}
-
-.gallery img:hover {
-    transform: scale(1.03);
-
-    box-shadow:
-        0 0 30px rgba(22, 140, 255, 0.45);
-}
