@@ -1,6 +1,1 @@
-text
-User-agent: *
-Allow: /
-
-Sitemap: https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/sitemap.xml
-
+User-agent: * Allow: / Sitemap: https://skate-create.github.io/sitemap.xml
